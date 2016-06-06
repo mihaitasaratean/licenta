@@ -1,0 +1,73 @@
+/* Structura paginii */
+*{
+	margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#wrapper{
+	min-height: 100%;
+	/* equal to footer height */
+	margin-bottom: -5%; 
+}
+
+#wrapper:after{
+	content: "";
+	display: block;
+	height: auto !important;
+	height: 100%;
+}
+
+#header{
+	background-color: red;
+	text-align:center;
+	padding: 0.5rem;
+	border: 2px solid blue;
+	min-height:15%;
+	max-height:15%;
+	
+}
+
+#content{
+	min-height:80%;
+	border: 2px solid yellow;
+	
+	
+}
+
+#footer{	
+	background-color: blue;
+	text-align: center;
+	clear: both;
+	color: white;
+	border: 2px solid red;
+	padding: 0.5em;
+	bottom:0;
+	min-width: 100%;
+	
+}
+
+#footer, #wrapper:after{
+/* .push must be the same height as footer */
+	height: 5%;
+}
+	
+/* Pana aici este structura paginii*/
+
+body {
+  background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,291 @@
+html, body{
+	height:100%;
+	margin:0;
+	/*padding:0;*/
+	
+}
+
+body{
+	font-family: arial;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+/* 	========================================================
+	Main styles
+	======================================================== */
+
+
+#wrapper{
+	min-height:100%;
+	position:relative;
+}
+
+#header{
+	background-color: blue;
+	padding:10px;
+	/*border: 2px solid blue;*/
+	
+	height:50px;
+	/*text-align:center;*/
+}
+
+#footer{
+	min-height:50px;
+	width:100%;
+	background-color: blue;
+	position:absolute;
+	left: 0px;
+	bottom:0px;
+	text-align: center;	
+	color: white;
+	/*border: 2px solid red;*/
+	
+}
+
+#footer p{
+	text-align:center;
+	color: white;
+	font-size:15px;
+	font-weight: bold;
+	
+}
+
+#content{
+	position:absolute;
+	top:70px;
+	bottom:50px;
+	min-width:100%;
+	max-width:100%;
+	/*border: 2px solid yellow;*/
+	/*padding: 10px;*/
+	background-color: #A9A9A9;
+}
+
+
+
+#content2 {    /*not used*/
+    position:absolute;
+    top:100px;
+    bottom:50px;
+	width:100%;
+	
+    /*border: 2px solid yellow;*/
+	background-color: #A9A9A9;
+} 
+
+/*	============================================================
+	Diverse
+	============================================================ */
+	
+h1, h2, h3, h4, h5 {
+	text-align:center;
+	font-weight:bold;
+}
+
+/*	============================================================
+	Prezentare (index)
+	============================================================ */
+
+#index_center{
+	float: left;
+	border: 3px solid #73AD21;
+	padding: 10px;
+	clear: both;
+	margin-left: 40%; 
+	margin-bottom: 0;
+	display:inline-block;
+}
+	
+#index_button{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 100px;
+	height: 60px;
+
+}
+	
+#span_buton{
+	float:left;
+	margin:20px;
+	
+}	
+
+
+/*	============================================================
+	Autentificare
+	============================================================ */
+	
+
+#label_login{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+#textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+#td_login{
+    text-align: right;
+}
+
+#autentificare_submit{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+    /*width: 100px;
+	height: 20px;*/
+}
+
+#autentificare_reset{
+	background-color: #4CA450;
+	border: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	height: 20px;
+}
+
+
+#autentificare_cancel{
+	background-color: red;
+	border: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	height: 20px;
+}
+
+
+/*	============================================================
+	Creare utilizator
+	============================================================ */
+
+
+
+#td_creare_util{
+    text-align: right;
+}
+
+#label_creare_util{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*	============================================================
+	Creare utilizator
+	============================================================ */
+/*Partea de header*/
+#meniu{
+    float:left;
+    border: 2px solid blue;
+    text-align: left;
+    margin-left: 10px;
+    /*padding-left: 2px;*/
+        
+}
+
+#meniu a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+#span_buton_meniu{
+	float:left;
+	margin:5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: left;
+    border: 1px solid gold;
+    padding: 3px;
+    height:38px;
+
+
+	
+}
+
+
+#meniu a:hover{
+    color: white;
+}
+#meniu a:visited{
+    color: white;
+}
+#meniu a:link{
+    color: white;
+}
+
+
+
+/*	============================================================
+	HOME
+	============================================================ */
+
+#afisare_parole{
+    float: left;
+	border: 3px solid #73AD21;
+	padding: 10px;
+	clear: both;
+	margin: 10px;
+	display:inline-block;
+}
+
+#tabel_afisare_parole{
+    
+    
+}
+
+#tabel_afisare_parole td{
+    font-size: 20px;
+    border: 3px solid gold;
+    min-width: 150px;
+    text-align: left;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,107 @@
+/* Structura paginii */
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+
+
+body{
+	background-color: #696969;
+	padding:10px;
+	padding-bottom:0;
+	
+}
+
+.footer, .push {
+height: 4em;
+clear: both;
+}
+
+/*#wrapper{
+	min-height:100%;
+	position:relative;
+	margin: 0 auto -5%;
+}*/
+
+#header{
+	background-color: red;
+	padding:10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 2px solid blue;
+	border-radius: 1em;
+	text-align:center;
+}
+
+
+#content{
+	min-height: 80%;
+	border: 2px solid yellow;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 1em;
+	padding-bottom:60px;
+	border-radius: 2em;
+	background-color: #A9A9A9;
+	
+	
+}
+/*footerul este ancorat in content div.*/
+.footer{
+	width:80%;
+	background-color: blue;
+	text-align: center;
+	color: white;
+	border: 2px solid red;
+	border-radius: 1em;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	
+}
+#footer, #push {
+	height: 5%;
+	clear: both;
+}
+
+/*#footer{
+	position: absolute;
+	bottom: 0;
+	min-width: 80%;
+	height:5%;
+	background-color: blue;
+	text-align: center;
+	clear: both;
+	color: white;
+	border: 2px solid red;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 1em;
+}*/
+
+
+/*Sfarsit structura paginii*/
+
+/*Pagina de login*/
+
+#login{
+	position: absolute;
+	
+}
+
+
+
+
+
+
+
+
+

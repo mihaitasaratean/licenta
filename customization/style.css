@@ -273,11 +273,49 @@ h1, h2, h3, h4, h5 {
 
 
 
+/*	============================================================
+	Adauga parole
+	============================================================ */
 
 
 
+#adauga_submit{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+    /*width: 100px;
+	height: 20px;*/
+}
+
+#adauga_reset{
+	background-color: #4CA450;
+	border: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	height: 20px;
+}
 
 
+#adauga_cancel{
+	background-color: red;
+	border: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	height: 20px;
+}
 
 
 

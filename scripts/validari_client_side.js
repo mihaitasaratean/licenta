@@ -1,0 +1,1 @@
+aici se pun validarile

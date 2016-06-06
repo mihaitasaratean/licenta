@@ -2,38 +2,11 @@
 $title="Home"; //Aici se declara titlul paginii
 include 'header.php';
 
-?>
+include 'meniu_header.php';
 
-<div id="meniu">
+include 'header_to_body.php'; 
 
-<span id="span_buton_meniu">
-<a href="home.php">Home</a>
-</span>
-
-
-<span id="span_buton_meniu">
-<a href="add_pass.php">Adauga parole</a>
-</span>
-
-<span id="span_buton_meniu">
-<a href="edit_pass.php">Editeaza parole</a>
-</span>
-
-<span id="span_buton_meniu">
-<a href="delete_pass.php">Sterge parole</a>
-</span>
-
-<span id="span_buton_meniu">
-<a href="contact.php">Contact</a>
-</span>
-
-
-</div>
-
-
-<?php 
-    include 'header_to_body.php'; 
-    include 'conectare.php';
+include 'conectare.php';
 ?>
 
 
@@ -59,7 +32,7 @@ include 'header.php';
  
  <table id="tabel_afisare_parole">
  <tr>
-    <td><h3>Nume</h3></td>
+    <td><h3>Aplicatie</h3></td>
     <td colspan="2"><h3>Parola</h3></td>
  </tr>
  
@@ -91,7 +64,7 @@ if ($rowcount>0){
     
     <!-- Aici afiseaza butonul de copy-->
     <td style="text-align:center;">
-        <button onclick="CopyToClipboard(this.$unique_id)" >COPIAZA</button>
+        <button onclick="CopyToClipboard($unique_id)" >COPIAZA</button>
     </td>
     
     

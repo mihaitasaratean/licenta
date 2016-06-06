@@ -12,16 +12,16 @@ include 'header_to_body.php';
 <table>
 <tr>
     <td id="td_login">
-    <label id="label_login">Username: </label></td><td>
-    <input id="textarea" type="textarea" placeholder="Introdu username-ul... " />
+    <label id="label_login" for="username">Username: </label></td><td>
+    <input id="textarea" type="textarea" name="username" placeholder="Introdu username-ul... " />
     </td>
 </tr>
 <tr>
     <td id="td_login">
-    <label id="label_login">Parola: </label></td><td>
-    <input id="textarea" type="textarea" type="password" placeholder="Introdu parola... " />
+    <label id="label_login" for="parola">Parola: </label></td><td>
+    <input id="textarea" type="password" name="parola" placeholder="Introdu parola... " />
 </td>
-<tr>
+</tr>
 </table>
 
 <button id="autentificare_submit" type="submit" > Autentifica </button>
